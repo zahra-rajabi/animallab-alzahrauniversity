@@ -334,10 +334,11 @@ html {
   right: 0;
   background-color: #001404d6;
   z-index: 99999999999999999999;
+  transform: translateX(-100vw);
   transition: all 0.3s;
 }
 .nav-mobile-translate {
-  transform: translateX(150%);
+  transform: translateX(0vw);
 }
 .nav-mobile-list {
   display: flex;
