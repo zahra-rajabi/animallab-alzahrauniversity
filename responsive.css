@@ -1,0 +1,145 @@
+@media (max-width: 1180px) {
+  html {
+    font-size: 58%;
+  }
+  .container {
+    max-width: 110rem;
+  }
+  .heading-title {
+    font-size: 2.8rem;
+  }
+  .header-nav-list {
+    font-size: 1.2rem;
+  }
+  .book {
+    padding: 4.2rem 0;
+  }
+  .book .container {
+    grid-template-columns: 1fr;
+  }
+  .book-image__img {
+    width: 60%;
+    height: 100%;
+  }
+  .book-image__img1 {
+    justify-self: end;
+  }
+  .footer-right {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 970px) {
+  html {
+    font-size: 52%;
+  }
+  .container {
+    max-width: 110rem;
+  }
+  .heading-title {
+    font-size: 2.4rem;
+  }
+  .header-nav-list {
+    font-size: 1.1rem;
+  }
+  .footer .container {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2.2rem;
+  }
+  .map-iframe {
+    display: none;
+  }
+}
+@media (max-width: 820px) {
+  html {
+    font-size: 48%;
+  }
+  .container {
+    max-width: 100rem;
+  }
+  .header-nav {
+    display: none;
+  }
+  .nav-mobile-open {
+    display: block;
+    justify-self: end;
+  }
+  .heading-title {
+    font-size: 2rem;
+  }
+  .biology-faculty,
+  .book,
+  .animallab-environment {
+    padding: 4.8rem 2.2rem;
+  }
+  .biology-faculty .container {
+    grid-template-columns: 1fr;
+  }
+  .book .container {
+    gap: 3.2rem;
+  }
+  .book-image {
+    grid-row: 2/3;
+  }
+  .biology-faculty-text__title--desktop {
+    display: none;
+  }
+  .biology-faculty-text__title--mobile {
+    display: block;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 620px) {
+  html {
+    font-size: 42%;
+  }
+  .heading-title {
+    font-size: 1.6rem;
+  }
+  .footer-title {
+    font-size: 1.2rem;
+  }
+  .footer-link:link,
+  .footer-link:visited {
+    font-size: 1.4rem;
+  }
+  .footer-right {
+    font-size: 0.9rem;
+  }
+  .map {
+    grid-column: 1/-1;
+  }
+  .biology-faculty-text__title {
+    font-size: 3rem;
+  }
+  .animallab-images {
+    grid-template-columns: 1fr 1fr;
+  }
+  .animallab-images__img-3 {
+    grid-column: 1/-1;
+  }
+  .examples-images {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.6rem;
+  }
+  .examples-title__text {
+    font-size: 3.2rem;
+  }
+  .example-images__img {
+    border-radius: 1.2rem;
+  }
+  .modal-image {
+    width: 70%;
+  }
+}
+@media (max-width: 420px) {
+  .heading-title {
+    font-size: 1.2rem;
+  }
+  .biology-faculty-text__content {
+    font-size: 1.4rem;
+  }
+  .footer .container {
+    grid-template-columns: 1fr;
+    row-gap: 2.2rem;
+  }
+}
